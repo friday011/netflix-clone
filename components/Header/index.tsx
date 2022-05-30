@@ -17,9 +17,9 @@ const Header: FC<IHeader> = () => {
     <header
       className={`${
         isScrolled && "bg-[#141414]"
-      } fixed top-0 z-50 transition duration-500 w-full px-8 py-2 md:py-5 bg-gradient-to-b from-gray-800/60 to-gray-800/0`}
+      } fixed top-0 z-50 transition duration-500 w-full px-12 py-2 md:py-5 bg-gradient-to-b from-gray-800/60 to-gray-800/0`}
     >
-      <div className="flex items-center justify-between mx-auto max-w-[1340px]">
+      <div className="flex items-center justify-between">
         <div className="flex space-x-12">
           <Image
             src="/images/logo-main.png"
