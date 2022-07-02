@@ -3,6 +3,15 @@ export interface Genre {
   name: string;
 }
 
+export interface SearchResults<T> {
+  page: number;
+  total_pages: number;
+  total_results: number;
+  results: T[];
+}
+
+type GOOGLE_CLIENT_ID = string;
+
 export interface Movie {
   adult: boolean;
   backdrop_path: string | null;

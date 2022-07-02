@@ -16,4 +16,12 @@
   .dropdown-link {
     @apply flex items-center justify-start px-3 py-4 space-x-2 text-xs cursor-pointer;
   }
+
+  .dropdown-menu {
+    @apply flex items-center justify-center w-full px-3 py-4 text-xs;
+  }
+
+  .input {
+    @apply w-full p-4 rounded bg-[#333] placeholder-gray-500 outline-none border-none focus:bg-[#454545] transition duration-200;
+  }
 }

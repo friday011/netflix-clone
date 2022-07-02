@@ -31,7 +31,7 @@ const ProfileDropdown: FC<IProfileDropdown> = () => {
         <>
           <Menu.Button>
             <div className="flex items-center justify-center space-x-2">
-              <div className="relative w-6 h-6 overflow-hidden rounded">
+              <div className="relative w-4 h-4 overflow-hidden rounded md:h-6 md:w-6">
                 <Image
                   src="/images/user.png"
                   alt="profile dropdown"
